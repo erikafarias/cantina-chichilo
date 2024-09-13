@@ -1,0 +1,151 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7e5c5;
+    margin: 0;
+    padding: 0;
+    color: #8b1313;
+}
+section {
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    border-radius: 8px;
+}
+
+/* Header */
+
+header {
+    background-color: #8b1313;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li a,  .titulo-header{
+    margin: 0 1rem;
+    color: #f7e5c5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Inicio */
+#inicio {
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#inicio h2 {
+    font-size: 2rem;
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.contenedor-img {
+    max-width: 20%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Sobre Nosotros */
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor-sobre-nosotros-texto {
+    text-align: left;
+    width: 50%;
+}
+
+.contenedor-sobre-nosotros-img{
+    width: 50%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-sobre-nosotros img {   
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+/* Especialidades */
+
+#especialidades ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#especialidades li {
+    width: 80%;
+    background-color: #8b1313;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f7e5c5;
+}
+
+/* Contacto */
+
+#contacto p {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #8b1313;
+    padding: 1rem;
+    text-align: center;
+    color: #f7e5c5;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p {
+    display: inline-block;
+    margin: 2rem 5rem;
+}
